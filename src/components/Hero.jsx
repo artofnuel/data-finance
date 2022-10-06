@@ -13,7 +13,7 @@ const Hero = () => {
                 </p>
             </div>
             <p className='text-xl text-gray-600 md:text-2xl p-2 px-4'>Monitor your data analytics to increase revenue for BTB, BTC & SASS platforms.</p>
-            <button className='bg-primary text-bkg w-[200px] rounded text font-semibold p-3 m-3'>Get Started</button>
+            <button className='bg-primary text-bkg w-[200px] rounded text font-semibold p-3 my-3 transition-all ease-in-out duration-300 hover:border hover:border-primary hover:bg-bkg hover:text-white'>Get Started</button>
         </div>
     </div>
   )

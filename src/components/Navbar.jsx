@@ -13,11 +13,11 @@ const Navbar = () => {
     <div className='max-w-full text-white flex justify-between items-center p-4 px-8'>
         <h1 className='w-full text-3xl font-bold'>React.</h1>
         <div className='hidden space-x-4 md:flex'>
-            <a className='text-xl p-2' href="#">Home</a>
-            <a className='text-xl p-2' href="#">Company</a>
-            <a className='text-xl p-2' href="#">Resources</a>
-            <a className='text-xl p-2' href="#">About</a>
-            <a className='text-xl p-2' href="#">Contact</a>
+            <a className='text-xl p-2 hover:text-primary' href="#">Home</a>
+            <a className='text-xl p-2 hover:text-primary' href="#">Company</a>
+            <a className='text-xl p-2 hover:text-primary' href="#">Resources</a>
+            <a className='text-xl p-2 hover:text-primary' href="#">About</a>
+            <a className='text-xl p-2 hover:text-primary' href="#">Contact</a>
         </div>
         {/* To create a functional mobile nav, we use a tenerary operation (condtionals) */}
         <div onClick={handleNav} className='block justify-center items-center md:hidden'>
